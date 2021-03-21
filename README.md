@@ -5,12 +5,13 @@ Starbucks Capstone Challenge
 The main challenge of this project is to "learn from the past" regading which has been the most successful offer for a particular profile of user which will be determined by a decision tree model using, as features, demographics and average transaction amount.  
 The Introduction in the jupyter notebook and the blog in https://medium.com/@eva-marchetti/learning-from-customers-response-to-offers-ed7553e0b931 will explain the challenge in more details
 ## How to run the jupiter notebook
-The whole notebook is based on three datastes provided by Starbucks and available in this repository:
+The whole notebook is based on three datastes provided by Starbucks and available in this repository in the zip file
 - portfolio.json
 - profile.json
 - transcript.json
 
-In the first code cell in the jupiter notebook (Importing the necessary libraries and files), particularly in the code:  
+You will need to extract and save the files in the zip file.  
+Then, in the first code cell in the jupiter notebook (Importing the necessary libraries and files), particularly in the code:  
 #read in the json files  
 portfolio = pd.read_json('data/portfolio.json', orient='records', lines=True)  
 profile = pd.read_json('data/profile.json', orient='records', lines=True)  
